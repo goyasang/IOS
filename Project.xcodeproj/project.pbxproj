@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE38533E1DD231E80085F1DB /* DemoVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = AE38533D1DD231E80085F1DB /* DemoVideo.m */; };
+		AE3853411DD23EF60085F1DB /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3853401DD23EF60085F1DB /* LogInViewController.m */; };
+		AE3853441DD240200085F1DB /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AE3853431DD240200085F1DB /* Video.mp4 */; };
+		AE4F0E041DD22204009C7ACB /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F0E031DD22204009C7ACB /* SearchViewController.m */; };
 		AEA61FE11DC788F000400747 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA61FE01DC788F000400747 /* main.m */; };
 		AEA61FE41DC788F000400747 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA61FE31DC788F000400747 /* AppDelegate.m */; };
 		AEA61FE71DC788F000400747 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA61FE61DC788F000400747 /* ViewController.m */; };
@@ -16,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE38533C1DD231E80085F1DB /* DemoVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVideo.h; sourceTree = "<group>"; };
+		AE38533D1DD231E80085F1DB /* DemoVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVideo.m; sourceTree = "<group>"; };
+		AE38533F1DD23EF60085F1DB /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		AE3853401DD23EF60085F1DB /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		AE3853431DD240200085F1DB /* Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video.mp4; sourceTree = "<group>"; };
+		AE4F0E021DD22204009C7ACB /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		AE4F0E031DD22204009C7ACB /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		AEA61FDC1DC788F000400747 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA61FE01DC788F000400747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEA61FE21DC788F000400747 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +50,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE3853421DD240030085F1DB /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				AE3853431DD240200085F1DB /* Video.mp4 */,
+			);
+			name = videos;
+			sourceTree = "<group>";
+		};
+		AE4F0E001DD220B1009C7ACB /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				AEA61FED1DC788F000400747 /* LaunchScreen.storyboard */,
+				AEA61FE81DC788F000400747 /* Main.storyboard */,
+				AE38533C1DD231E80085F1DB /* DemoVideo.h */,
+				AE38533D1DD231E80085F1DB /* DemoVideo.m */,
+				AE38533F1DD23EF60085F1DB /* LogInViewController.h */,
+				AE3853401DD23EF60085F1DB /* LogInViewController.m */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		AE4F0E011DD220C5009C7ACB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		AEA61FD31DC788F000400747 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +97,16 @@
 		AEA61FDE1DC788F000400747 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				AE3853421DD240030085F1DB /* videos */,
+				AE4F0E011DD220C5009C7ACB /* Images */,
+				AE4F0E001DD220B1009C7ACB /* Nibs */,
 				AEA61FE21DC788F000400747 /* AppDelegate.h */,
 				AEA61FE31DC788F000400747 /* AppDelegate.m */,
 				AEA61FE51DC788F000400747 /* ViewController.h */,
+				AE4F0E021DD22204009C7ACB /* SearchViewController.h */,
+				AE4F0E031DD22204009C7ACB /* SearchViewController.m */,
 				AEA61FE61DC788F000400747 /* ViewController.m */,
-				AEA61FE81DC788F000400747 /* Main.storyboard */,
 				AEA61FEB1DC788F000400747 /* Assets.xcassets */,
-				AEA61FED1DC788F000400747 /* LaunchScreen.storyboard */,
 				AEA61FF01DC788F000400747 /* Info.plist */,
 				AEA61FDF1DC788F000400747 /* Supporting Files */,
 			);
@@ -139,6 +181,7 @@
 			files = (
 				AEA61FEF1DC788F000400747 /* LaunchScreen.storyboard in Resources */,
 				AEA61FEC1DC788F000400747 /* Assets.xcassets in Resources */,
+				AE3853441DD240200085F1DB /* Video.mp4 in Resources */,
 				AEA61FEA1DC788F000400747 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +194,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEA61FE71DC788F000400747 /* ViewController.m in Sources */,
+				AE38533E1DD231E80085F1DB /* DemoVideo.m in Sources */,
+				AE3853411DD23EF60085F1DB /* LogInViewController.m in Sources */,
 				AEA61FE41DC788F000400747 /* AppDelegate.m in Sources */,
+				AE4F0E041DD22204009C7ACB /* SearchViewController.m in Sources */,
 				AEA61FE11DC788F000400747 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +349,7 @@
 				AEA61FF51DC788F000400747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
